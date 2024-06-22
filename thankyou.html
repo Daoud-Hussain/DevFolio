@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Thank You</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-            /* background-color: #f8f9fa; */
-            background: #040b14;
-            color: #ffffff;
-        }
+  <link href="assets/img/profile-pic (17).png" rel="icon">
 
-        .container h1 {
-            color: white;
-        }
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
 
-        .thank-you-icon {
-            font-size: 90px;
-        }
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-        .btn-gradient {
-            background: white;
-            border: none;
-            color: white;
-        }
-    </style>
+  <!-- <link href="assets/css/main.css" rel="stylesheet"> -->
+  <style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        /* background-color: #f8f9fa; */
+        background: #040b14;
+        color: #ffffff;
+    }
+
+    .container h1 {
+        color: white;
+    }
+
+    .thank-you-icon {
+        font-size: 90px;
+    }
+
+    .btn-gradient {
+        background: white;
+        border: none;
+        color: white;
+    }
+</style>
 </head>
 
 <body>
 
-    <!-- Thank You Message -->
+  <section class="d-flex justify-content-center align-items-center min-vh-100" data-aos="fade-in" data-aos-delay="100">
     <div class="container">
-        <div class="thank-you-icon">
+        <div class="thank-you-icon" data-aos="fade-down" data-aos-delay="200">
             <i class="bi bi-check2-circle"></i>
         </div>
-        <h1>Form Submitted Successfully!</h1>
-        <p class="lead">Thank you! The form has been submitted successfully.</p>
-        <p class="lead">I'll get back to you soon!</p>
-        <a href="index.html" class="btn btn-lg mt-4" style="background-color: #a8a9b4; color: black;">Go Back</a>
+        <h1 data-aos="fade-down" data-aos-delay="300">Form Submitted Successfully!</h1>
+        <p class="lead" data-aos="fade-down" data-aos-delay="400">Thank you! The form has been submitted successfully. 
+            <br class="mb-2">
+            I'll get back to you soon!
+        </p>
+        <!-- <p class="lead" data-aos="fade-down" data-aos-delay="500">I'll get back to you soon!</p> -->
+        <a href="index.html" data-aos="fade-down" data-aos-delay="600" class="btn btn-lg mt-4" style="background-color: #a8a9b4; color: black;">Go Back</a>
     </div>
+  </section>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
-
 </html>
+
