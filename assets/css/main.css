@@ -538,6 +538,13 @@ section,
   }
 }
 
+@media (max-width: 600px) {
+ 
+  #hero p {
+    font-size: larger;
+  }
+}
+
 .button {
   background-color: #004a7f;
   -webkit-border-radius: 10px;
@@ -826,6 +833,7 @@ section,
     font-size: 14px;
     margin: 0 5px;
   }
+  
 }
 
 .portfolio .portfolio-content {
