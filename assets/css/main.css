@@ -968,6 +968,11 @@ section,
   font-size: 14px;
 }
 
+.customLinks{
+  text-decoration: none;
+  color: var(--default-color);
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
